@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>pinball-Главная</title>
+  <link rel="shortcut icon" type="image/png" href="logoList.png">
+  <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+  <script src="js/less.js" type="text/javascript"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <section class="box_home">
+    <div class="box_link_home">
+      <a class="object_link_play" href="pinball.html">
+        <h2>Начать игру</h2>
+      </a>
+    </div>
+    <div class="hint" onClick='openHints();'>
+      <span>Как играть?</span>
+    </div>
+    <div class="close_box_hints hidden" onClick='openHints();'></div>
+    <div class="box_hints hidden">
+      <p>
+      <h3>Наиподробнейшая инструкция по игре в "Пинбол"</h3>
+      </p>
+      <p><b>Шаг 1.</b> Нажмите "Начать Игру", чтобы начать игру. (Зажимать не надо)</p>
+      <p><b>Шаг 2.</b> Изучите управление игры.</p>
+      <p>*Цифры сверху - кол-во очков. Каждый раз, когда вы успешно ловите шарик, вам добавляется 1 очко. С каждым очком
+        шарик слегка ускоряется. Очки обнуляются, а скорость спадает до начальной, как только вы пропустите 1 подачу.
+        Это считается за поражение.</p>
+      <img class="hintGif" src='src/info_1.gif' loading="lazy">
+      <p>*Передвигайте зелёный ползунок снизу, чтобы управлять платформой, которая ловит шарик. Платформа двигается в
+        зависимости от положения ползунка. После проигрыша платформа не меняет местоположение. Также платформа двигается
+        не синхронно, что значительно усложняет игровой процесс.</p>
+      <p><b>Шаг 3.</b> Убедитесь, что выполнили шаг 2 правильно. Если вы уверены, что достоверно ознакомлены с
+        управлением, то
+        вы можете переходить к шагу 4.</p>
+      <p><b>Шаг 4.</b> Веселитесь!</p>
+
+      <div class=box_developers>
+        <h2>☆ Разработчики ☆</h2>
+        <a class="object_developers_public" href="https://vk.com/dante_youtube_gamer" target="_blank">
+          <span>Паблик разработчика</span>
+          <img src="src/vk_pub_logo.jpg" loading="lazy">
+        </a>
+        <a class="object_developer" href="https://vk.com/besfalin_yt" target="_blank">
+          <span>Разработчик</span>
+          <img src="src/main_dev.jpg" loading="lazy">
+        </a>
+        <a class="object_developer_assistant" href="https://vk.com/tematodor" target="_blank">
+          <span>Помощник разработчика</span>
+          <img src='src/2nd_dev.jpg' loading="lazy">
+        </a>
+      </div>
+    </div>
+  </section>
+  <script>
+    function openHints() {
+      document.querySelector(".box_hints").classList.toggle('hidden')
+      document.querySelector(".close_box_hints").classList.toggle('hidden')
+    }
+  </script>
+</body>
+
+</html>

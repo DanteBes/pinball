@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>pinball</title>
+  <link rel="shortcut icon" type="image/png" href="logoList.png">
+  <link rel="stylesheet/less" type="text/css" href="css/style.less" />
+  <script src="js/less.js" type="text/javascript">
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <header class="box_header_wrapper">
+    <div class="box_content">
+      <h1 class="object_counter">000</h1>
+      <div class='info_Btn' onClick='openInfo();'>
+        <img src='src/info-circle-fill.svg'>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class='info_box hidden'>
+      <p>Всем привет, с вами Dante Besfalin! Я ноунейм разраб этой мини-игры который пока еще учиться программировать.
+        пожалуйста, не судите строго, а просто поиграйте в мою игру и зацените)</p>
+    </div>
+  </nav>
+
+  <section>
+
+    <canvas id="canvas" width="400px" height="400"></canvas>
+    <div class='ctrl_panel'>
+      <div class='range'>
+        <input id='ctrl_slider' type="range" min="-3" max="3" step="0.05">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+
+    </div>
+  </footer>
+  <script defer src="js/script.js"></script>
+</body>
+
+</html>
