@@ -5,4 +5,4 @@ Hello everyone, Dante Besfalin here! I'm new to GitHub. A bit about myself: I'm 
 
 ## About This Repository
 
-I created this game a few years ago following YouTube tutorials, but since the author didn't finish the tutorial playlist, my friend and I had to complete the game ourselves. Since my friend wrote 95% of the code, I distanced myself a bit because I didn't consider it my project anymore. However, I decided not to discard the project but to keep it. I recommend checking out my portfolio.
+I created this game a few years ago following YouTube tutorials, but since the author didn't finish the tutorial playlist, my friend and I had to complete the game ourselves. Since my friend wrote 95% of the code, I distanced myself a bit because I didn't consider it my project anymore. However, I decided not to discard the project but to keep it. I recommend checking out my [portfolio](https://dantebes.github.io/portfolio/).
